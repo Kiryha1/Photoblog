@@ -1,0 +1,44 @@
+:root {
+  --gallery-gray: #626262;
+  --gallery-silver: #b4ad9e;
+  --gallery-lightslategray: #7d7d7d;
+  --hover: #03a9f4;
+}
+ul {
+  list-style-type: none;
+}
+.nav-list:hover {
+  color: var(--hover);
+}
+.nav-list-link {
+  color: var(--gallery-lightslategray);
+  font-family: Playfair Display;
+}
+.gallery-photo {
+  width: 420px;
+  height: 280px;
+  flex-shrink: 0;
+}
+.gallery-name {
+  color: var(#b4ad9e);
+  font-family: Ubuntu;
+  font-size: 14px;
+}
+.gallery-title {
+  color: var(--gallery-gray);
+  font-family: Playfair Display;
+  font-size: 30px;
+}
+.gallery-description {
+  color: var(--gallery-gray);
+  font-family: Playfair Display;
+  font-size: 14px;
+}
+.button {
+  color: var(--gallery-gray);
+  font-family: Playfair Display;
+  font-size: 14px;
+  width: 165px;
+  height: 60px;
+  flex-shrink: 0;
+}
