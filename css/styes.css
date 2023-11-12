@@ -4,15 +4,22 @@
   --gallery-lightslategray: #7d7d7d;
   --hover: #03a9f4;
 }
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
+  color: var(--gallery-gray);
+}
+a {
+  text-decoration: none;
+}
 ul {
   list-style-type: none;
 }
 .nav-list-link {
   color: var(--gallery-lightslategray);
-  font-family: "Playfair Display", serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 .nav-list-link:hover {
   color: var(--hover);
@@ -24,26 +31,15 @@ ul {
 .gallery-name {
   color: var(#b4ad9e);
   font-family: "Ubuntu", sans-serif;
-  font-size: 14px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
 }
 .gallery-title {
   color: var(--gallery-gray);
-  font-family: "Playfair Display", serif;
   font-size: 30px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 .gallery-description {
   color: var(--gallery-gray);
-  font-family: "Playfair Display", serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 .button {
   color: var(--gallery-gray);
