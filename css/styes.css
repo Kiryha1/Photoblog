@@ -7,12 +7,12 @@
 ul {
   list-style-type: none;
 }
-.nav-list:hover {
-  color: var(--hover);
-}
 .nav-list-link {
   color: var(--gallery-lightslategray);
-  font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
+}
+.nav-list-link:hover {
+  color: var(--hover);
 }
 .gallery-photo {
   width: 420px;
@@ -21,22 +21,22 @@ ul {
 }
 .gallery-name {
   color: var(#b4ad9e);
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
 }
 .gallery-title {
   color: var(--gallery-gray);
-  font-family: Playfair Display;
+  font-family: 'Playfair Display', serif;
   font-size: 30px;
 }
 .gallery-description {
   color: var(--gallery-gray);
-  font-family: Playfair Display;
+  font-family: 'Playfair Display', serif;
   font-size: 14px;
 }
 .button {
   color: var(--gallery-gray);
-  font-family: Playfair Display;
+  font-family: 'Playfair Display', serif;
   font-size: 14px;
   width: 165px;
   height: 60px;
